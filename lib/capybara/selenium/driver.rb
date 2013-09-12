@@ -87,7 +87,8 @@ class Capybara::Selenium::Driver < Capybara::Driver::Base
         # to about:blank, so we rescue this error and do nothing
         # instead.
       end
-      @browser.navigate.to('about:blank')
+      #@browser.navigate.to('about:blank')
+      @browser.navigate.to('about:help')
     end
   end
 
